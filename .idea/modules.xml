@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KfzKennzeichen/KfzKennzeichen.iml" filepath="$PROJECT_DIR$/KfzKennzeichen/KfzKennzeichen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KfzKennzeichenProject.iml" filepath="$PROJECT_DIR$/KfzKennzeichenProject.iml" />
+    </modules>
+  </component>
+</project>
+

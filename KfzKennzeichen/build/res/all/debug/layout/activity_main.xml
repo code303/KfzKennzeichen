@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextInput"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/buttonSearch"
+            android:editable="true"
+            android:phoneNumber="false"
+            android:hint="@string/hintInputBox"
+            android:inputType="textCapCharacters"
+            android:maxLines="1"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSearch"
+            android:id="@+id/buttonSearch"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:onClick="runSearch"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="30dp"
+            android:textAlignment="center"
+            android:baselineAligned="false"
+            android:gravity="center_horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textViewDerivedFrom"
+                android:hint="@string/derivedFrom"
+                android:paddingTop="20dp"
+                android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewCounty"
+            android:hint="@string/hintCounty"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textViewFederalState"
+                android:editable="false"
+                android:hint="@string/hintFederalState"
+                android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/toni/AndroidStudioProjects/KfzKennzeichenProject/KfzKennzeichen/src/main/res/layout/activity_main.xml -->

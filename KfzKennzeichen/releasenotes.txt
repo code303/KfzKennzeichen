@@ -1,0 +1,13 @@
+Kennzeichen
+===========
+Release Notes
+-------------
+
+Version 1.1                                                                               2013-07-19
+ - trim whitespaces on user input
+ - convert user input to upper case
+ - improve app icon
+
+Version 1.0                                                                               2013-07-18
+ - initial version
+

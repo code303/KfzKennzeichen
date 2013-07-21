@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kennzeichen</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintCounty">Landkreis</string>
+    <string name="hintInputBox">Kennzeichen</string>
+    <string name="derivedFrom">Region</string>
+    <string name="hintFederalState">Bundesland</string>
+    <string name="buttonSearch">Suche</string>
+    <string name="titleLabel">Ergebnis für</string>
+    <string name="unknown">unbekannt</string>
+
+</resources>
